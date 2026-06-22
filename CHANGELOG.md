@@ -1,6 +1,6 @@
 # Changelog
 
-## 7.5.5 (2026-06-22)
+## 7.5.4+ubcla.20260622 (2026-06-22)
 - pyproject.toml: raised Python floor to >=3.10, bumped/capped cryptography, pyOpenSSL, and audit-related dependency floors.
 - poetry.lock: regenerated with secure resolved versions.
 - src/saml2/cert.py: replaced removed OpenSSL.crypto.verify usage with cryptography.x509 verification.
