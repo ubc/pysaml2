@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+- deps: bump cryptography to 50.0.0 and remove the incompatible pyOpenSSL dependency.
+- src/saml2: replace the remaining pyOpenSSL certificate operations with cryptography.
+
 ## 7.5.4+ubcla.20260622 (2026-06-22)
 - pyproject.toml: raised Python floor to >=3.10, bumped/capped cryptography, pyOpenSSL, and audit-related dependency floors.
 - poetry.lock: regenerated with secure resolved versions.
